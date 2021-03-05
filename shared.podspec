@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
     spec.summary                  = 'Apollo Kmm Pod'
 
     spec.static_framework         = true
-    spec.vendored_frameworks      = "build/cocoapods/framework/apollokmm.framework"
+    spec.vendored_frameworks      = "apollokmm.framework"
     spec.libraries                = "c++"
     spec.module_name              = "#{spec.name}_umbrella"
 
